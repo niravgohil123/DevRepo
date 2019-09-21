@@ -3,5 +3,6 @@ aws ec2 run-instances \
     --instance-type t2.micro \
     --key-name First_Instance \
     --security-group-ids sg-0b270d835c1bf1b47 \
-    --subnet-id subnet-041512ba1a3491a8c
+    --subnet-id subnet-041512ba1a3491a8c \
+    --region us-east-2
 # this is first command

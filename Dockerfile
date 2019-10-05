@@ -5,4 +5,4 @@ RUN mkdir docker
 COPY f1 f2
 RUN echo "Hello Containers" >> docker/f2
 CMD ["/bin/bash"]
-
+RUN echo "This is 5thOctober Changes"

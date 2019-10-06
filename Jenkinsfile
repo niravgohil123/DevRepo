@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = "niravgohil/nirav"
-    registryCredential = ‘bc32296e-ef2d-49ae-84e2-a95768fdab07’
+    registryCredential = 'niravdocker'
   }
   agent any
   stages {
